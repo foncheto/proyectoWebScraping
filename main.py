@@ -21,4 +21,5 @@ nombre = 'bcentral.html'
 foutput = open(nombre, 'w')
 foutput.write(htmlData)
 foutput.close()
-    
+
+driver.quit() # Cerramos el navegador
